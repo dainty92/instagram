@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     display: flex;
     overflow-x: hidden;
 }
@@ -437,4 +437,44 @@ footer p {
     font-size: 12px;
     color:#C7C7C7;
     margin-top: -20px
+}
+
+@media (max-width: 768px) {
+  .part1 nav {
+    width: 100%;
+    position: static;
+    border-right: none;
+    padding: 20px 10px;
+  }
+
+  .part2 {
+    margin: 30px 0;
+  }
+
+  .part2_container {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .part2_container {
+    margin-left: 0;
+  }
+  
+  .block1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .block1 .profilepix {
+    margin-bottom: 10px;
+  }
+  
+  .block3 .partf form {
+    flex-direction: column;
+  }
+  
+  .partf textarea {
+    width: 100%;
+  }
 }
