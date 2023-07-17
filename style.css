@@ -71,8 +71,9 @@ body {
 
 .part2 {
     display: flex;
-    gap: 35px;
-    margin: 30px 0 30px 400px;
+    gap: 30px;
+    margin: 30px;
+    margin-left: 300px
 }
   
 .part2_container {
